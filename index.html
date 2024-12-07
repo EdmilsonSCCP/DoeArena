@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doe Arena Corinthians</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Doe Arena Corinthians</h2>
+        
+        <!-- Meta fixa -->
+        <p class="meta">Meta: <strong>R$ 700.000.000,00</strong></p>
+        
+        <!-- Campo para inserir valor atual -->
+        <label for="totalPago">Valor Total Pago (R$):</label>
+        <input type="text" id="totalPago" placeholder="Ex: 100000000">
+
+        <!-- Campo para número de pagamentos -->
+        <label for="numPagamentos">Número de Pagamentos:</label>
+        <input type="number" id="numPagamentos" placeholder="Ex: 100000">
+
+        <!-- Botão para calcular -->
+        <button onclick="calcularValores()">Calcular</button>
+
+        <!-- Resultado -->
+        <p>Média por pagamento: <strong id="mediaPagamento">R$ 0,00</strong></p>
+        <p id="faltaMeta"></p>
+        <p id="percentualPago"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

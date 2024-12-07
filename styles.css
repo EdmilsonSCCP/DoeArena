@@ -1,0 +1,74 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('IMG/wallpaperflare.com_wallpaper.jpg'); /* Substitua com o link da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0); /* Fundo semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(1, 0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFD700; /* Dourado para dar destaque */
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.meta {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FFD700; /* Dourado */
+}
+
+#percentualPago {
+    font-size: 22px;
+    color: #4CAF50; /* Verde para exibir a porcentagem */
+}
